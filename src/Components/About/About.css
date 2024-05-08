@@ -36,6 +36,11 @@
     gap: 80px;
 }
 
+.about-left img {
+    width : 400px ;
+    height : 538px ;
+} 
+
 .about-para{
     display: flex;
     flex-direction: column;
@@ -70,7 +75,9 @@
     height: 8px;
     border-radius: 50px;
     background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
-    
+}
 
-     
+.about-skills :hover{
+    transform: scale(1.1);
+    transition: 0.4s;
 }
