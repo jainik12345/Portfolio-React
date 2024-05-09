@@ -9,8 +9,7 @@ const Navbar = () => {
       <ul className='nav-menu'>
         <li>Home</li>
         <li>About Me</li>
-        <li>Skills</li>
-        <li>Services</li>
+        <li>Work</li>
         <li>Contact</li>
       </ul>
       <div className="nav-connect">Connect With Me</div>
