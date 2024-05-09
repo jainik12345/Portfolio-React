@@ -4,6 +4,13 @@
     justify-content: space-between;
     margin: 20px 170px;
 }
+.navbar h1{
+    color:  #DA7C25 ;
+    cursor: pointer;
+}
+.navbar h1:hover{
+    color: #b923e1;
+}
 .nav-menu{
     display: flex;
     align-items: center;
@@ -26,3 +33,22 @@
     transform: scale(1.05);
 }
 
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img{
+     display: flex;
+     margin: auto;
+}
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+
+.underline-text {
+    text-decoration: underline;
+    color: red;
+  }
