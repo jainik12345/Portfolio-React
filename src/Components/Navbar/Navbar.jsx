@@ -24,7 +24,8 @@ const Navbar = () => {
   return (
     <div className="navbar">
       {/* <img src={logo} alt=''/> */}
-      <h1>JAINIK</h1>
+      {/* <h1>JคᎥŇᎥk࿐</h1> */}
+      <h1>🅹🅰🅸🅽🅸🅺.🆆🅴🅱</h1>
       <img src={menu_open} onClick={openMenu} className="nav-mob-open" alt="" />
       <ul ref={menuRef} className="nav-menu">
         <img
