@@ -2,7 +2,7 @@
 
 import './About.css'
 // import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about1.jpg'
+import profile_img from '../../assets/curriculum.png'
 
 
 const About = () => {
