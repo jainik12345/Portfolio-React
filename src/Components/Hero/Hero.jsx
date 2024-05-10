@@ -1,19 +1,35 @@
 // import React from 'react'
-import './Hero.css'
-import profile_img from '../../assets/profile_img.png'
+import "./Hero.css";
+import profile_img from "../../assets/profile_img.png";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
+  const handleDownload = () => {
+    window.location.href =
+      "https://drive.google.com/file/d/112Z17X13cLrcwo_IEzPaf71YQzNp679I/view?usp=drive_link " ;
+  };
+
   return (
-    <div className='hero'>
-      <img src={profile_img} alt=''/>
-      <h1><span>I'm Jainik Darji,</span> Web Developer !!!!!!</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, laboriosam.</p>
+    <div id="home" className="hero">
+      <img src={profile_img} alt="" />
+      <h1>
+        <span>Im Jainik Darji,</span> <br />
+        Web Developer{" "}
+      </h1>
+
       <div className="hero-action">
-        <div className="hero-connect">Connect With me</div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-connect">
+          <AnchorLink className="anchor-link" offset={50} href="#contact">
+            Connect With me
+          </AnchorLink>
+        </div>
+        {/* <div className="hero-resume">My Resume</div> */}
+        <div onClick={handleDownload}  className="hero-resume" target="_blank">
+          My Resume
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
