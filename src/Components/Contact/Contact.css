@@ -123,6 +123,32 @@
     transition: 0.3s;
 }
 
+.icon-container{
+    gap: 200px;
+}
+
+.github{
+    background-color: white;
+    border: 3px solid  black;
+    width: 45px;
+    gap: 30px;
+    border-radius: 50px;
+    
+    
+}
+
+.linkedin{
+    background-color: white;
+    border: 3px solid  black;
+    width: 45px;
+    
+    
+}
+
+
+
+
+
 @media(max-width:768px){
     .contact{
         gap: 50px;
