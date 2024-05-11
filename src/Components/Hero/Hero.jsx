@@ -6,7 +6,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 const Hero = () => {
   const handleDownload = () => {
     window.location.href =
-      "https://drive.google.com/file/d/1Zl2D6kSA7uwWx4XrN14HAFMNPzF7iAfY/view?usp=drive_link " ;
+      "https://drive.google.com/file/d/1Zl2D6kSA7uwWx4XrN14HAFMNPzF7iAfY/view?usp=drive_link ";
   };
 
   return (
@@ -23,8 +23,7 @@ const Hero = () => {
             Connect With me
           </AnchorLink>
         </div>
-        {/* <div className="hero-resume">My Resume</div> */}
-        <div onClick={handleDownload}  className="hero-resume" target="_blank">
+        <div onClick={handleDownload} className="hero-resume" target="_blank">
           My Resume
         </div>
       </div>
