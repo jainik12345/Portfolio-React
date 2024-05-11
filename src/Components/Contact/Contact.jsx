@@ -65,11 +65,13 @@ const Contact = () => {
                 <a href="https://github.com/jainik12345" target="_blank">
                   <img className="github" src={github} alt="GitHub" />
                 </a>
-                <a href="https://www.linkedin.com/in/jainik-darji-899759233/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/jainik-darji-899759233/"
+                  target="_blank"
+                >
                   <img className="linkedin" src={linkedin} alt="LinkedIn" />
                 </a>
               </div>
-
             </div>
           </div>
           <form onSubmit={onSubmit} className="contact-right">

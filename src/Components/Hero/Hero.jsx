@@ -6,7 +6,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 const Hero = () => {
   const handleDownload = () => {
     window.location.href =
-      "https://drive.google.com/file/d/112Z17X13cLrcwo_IEzPaf71YQzNp679I/view?usp=drive_link " ;
+      "https://drive.google.com/file/d/1Zl2D6kSA7uwWx4XrN14HAFMNPzF7iAfY/view?usp=drive_link " ;
   };
 
   return (
