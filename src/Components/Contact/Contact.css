@@ -29,6 +29,8 @@
   gap: 50px;
 }
 
+
+
 .contact-left {
   display: flex;
   flex-direction: column;
@@ -38,7 +40,7 @@
 .contact-left h1 {
   font-size: 70px;
   font-weight: 700;
-  background: linear-gradient(270deg, #df8908 80%, #b415ff 100%);
+  background: linear-gradient(267deg, rgb(57, 27, 192) 0.36%, rgb(81, 189, 23) 102.06%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -104,7 +106,7 @@
   border: none;
   color: white;
   border-radius: 50px;
-  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  background: linear-gradient(267deg, rgb(57, 27, 192) 0.36%, rgb(81, 189, 23) 102.06%);
   font-size: 22px;
   padding: 20px 60px;
   margin-bottom: 50px;

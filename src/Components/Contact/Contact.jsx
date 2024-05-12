@@ -34,11 +34,11 @@ const Contact = () => {
     <div>
       <div id="contact" className="contact">
         <div className="contact-title">
-          <h1>Get in Touch</h1>
+          <h1>Contact</h1>
         </div>
         <div className="contact-section">
           <div className="contact-left">
-            <h1>Let s Talk</h1>
+            <h1>Message Us</h1>
             <p>
               Connect with us effortlessly through our user-friendly contact
               page. Whether you have questions, or inquiries, us me is here to
