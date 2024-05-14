@@ -41,7 +41,7 @@
 **3. Now start the React server by running the following command :-**
 
 ```bash
- npm start
+ npm run dev
 ```
 
 **3. Open your browser and go to `http://localhost:5173/`**
