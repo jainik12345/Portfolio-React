@@ -1,12 +1,34 @@
-# React + Vite
-## not complete
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ A simple portfolio template for developer/designers built with React.
 
-Currently, two official plugins are available:
+## Live Demo 
+- Click [here](https://generate-portfolio.netlify.app/) to view the live demo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Features 📋
+
+
+- Customizable Layouts: Personalize your portfolio layout.
+-  Responsive Design: Look great on desktop, tablet, and mobile.
+- Shimmering Effect and Lazy Loading and scrollbar . 
+- Downloadable React Code: Full control over your portfolio. 
+- Create a Contact page in My-Portfolio 
+
+## Sections 📚
+
+- Home
+- About Me
+- My-Work
+- Contact Me
+
+## Tech Stack 💻
+ 
+-  REACT.JS
+-  CSS3
+-  
+## Getting Started ⚡ :-
+
+### 1. Clone this repo by running the following command :-
 
 
