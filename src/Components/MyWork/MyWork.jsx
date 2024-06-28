@@ -20,12 +20,16 @@ const MyWork = () => {
           );
         })}
       </div>
-      <div className="mywork-showmore">
-        <p>Show More</p>
-        <img src={arrow_icon} alt="" />
-      </div>
+      <a href="https://github.com/jainik12345" target="_blank">
+        <div className="mywork-showmore">
+          <p>Show More</p>
+          <img src={arrow_icon} alt="" />
+        </div>
+      </a>
     </div>
   );
 };
-
+{
+  /* <img src={arrow_icon} alt="" /> */
+}
 export default MyWork;
